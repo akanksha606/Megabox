@@ -8,5 +8,4 @@
     android:padding="84dp"
     android:src="@drawable/logo"
     tools:context=".activity_splash"
-
     />
