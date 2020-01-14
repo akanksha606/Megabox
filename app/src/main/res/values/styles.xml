@@ -1,11 +1,16 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#0da3f5</item>
         <item name="colorPrimaryDark">#0da3f5</item>
         <item name="colorAccent">#0da3f5</item>
+    </style>
+    <style name="BottomMenuColor" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColorSecondary">@android:color/white
+
+        </item>
     </style>
 
 </resources>
