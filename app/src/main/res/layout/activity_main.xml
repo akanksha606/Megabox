@@ -5,7 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
 
 
 
@@ -17,9 +25,9 @@
             android:id="@+id/bottonAppBar"
             style="@style/Widget.MaterialComponents.BottomAppBar"
             android:layout_width="match_parent"
-            android:layout_height="45dp"
+            android:layout_height="41dp"
             android:layout_gravity="bottom"
-            app:backgroundTint="@color/colorPrimary"
+            app:backgroundTint="#7da00d"
             app:fabCradleRoundedCornerRadius="16dp"
             app:navigationIcon="@drawable/ic_home_black_24dp">
 

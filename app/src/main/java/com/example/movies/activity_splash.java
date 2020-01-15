@@ -1,14 +1,12 @@
 package com.example.movies;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-
 public class activity_splash extends AppCompatActivity {
 
     @Override
